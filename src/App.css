@@ -45,9 +45,15 @@
   border-radius: 10px;
   box-shadow: 10px 10px 10px;
   margin: 20px;
+  cursor: pointer;
+  padding: 20px 20px;  
 }
 
 #click:active {
   box-shadow: none;
   transform: translateY(5px);
+}
+
+#click:hover {
+  background-color: white;
 }

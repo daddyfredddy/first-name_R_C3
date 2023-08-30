@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 
 const Button = ({ Login, Signin }) => {
   return (
     <div>
-      <button id="click">LOG IN</button>
-      <button id="click">SIGN IN</button>
+      <button id="click">{Login}</button>
+      <button id="click">{Signin}</button>
     </div>
   );
 };

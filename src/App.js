@@ -1,4 +1,5 @@
 // import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
 import Button from "./components/Button";
 
@@ -13,7 +14,8 @@ function App() {
       </h2>
       <h2>Professional Background: Worked as broadcast Engineer. </h2>
       <h2>Skills: Outside broadcast management.</h2>
-      <Button/>
+
+      <Button Login={"LOG IN"} Signin={"SIGN IN"} />
     </div>
   );
 }
